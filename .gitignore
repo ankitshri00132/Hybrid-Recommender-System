@@ -3,4 +3,3 @@
 data/raw/*.csv
 data/processed/*.csv
 data/processed/*.npz
-assets
