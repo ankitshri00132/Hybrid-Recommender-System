@@ -17,3 +17,4 @@ stages:
     outs:
     - data/processed/transformed_data.npz
     - transformer.joblib
+    - models/nearest_neighbor.joblib

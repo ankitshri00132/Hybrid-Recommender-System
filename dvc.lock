@@ -25,8 +25,8 @@ stages:
       size: 13709636
     - path: src/content_based_filtering.py
       hash: md5
-      md5: e32e1ba816210c6147fa4ce5dfc8da7d
-      size: 6606
+      md5: c1eb422dd7fc850c9d90fcc8aedfa94c
+      size: 6299
     - path: src/data_cleaning.py
       hash: md5
       md5: 945a505f745df0a6681c90f9637c706e
@@ -36,7 +36,11 @@ stages:
       hash: md5
       md5: f32fa1890a52bed4fe44aaac84bf5815
       size: 4522794
+    - path: models/nearest_neighbor.joblib
+      hash: md5
+      md5: b47da039a88c3730366db622dbc0ffd3
+      size: 11098462
     - path: transformer.joblib
       hash: md5
-      md5: 23fdabf0b0001b5b593f8466a3718ff3
+      md5: fd5e13bcb93d8824100f596ec9bd1628
       size: 135357
