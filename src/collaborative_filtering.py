@@ -93,8 +93,8 @@ def create_interaction_matrxi(user_data: dd.DataFrame, track_ids_save_path, save
 
 def collaborative_recommendation(song_name, artist_name, track_ids, songs_data, interaction_matrix, k=5):
     # lowercase the name
-    song_name = song_name.lower()
-    artist_name = artist_name.lower()
+    song_name = song_name.strip().lower()
+    artist_name = artist_name.strip().lower()
 
     # fetch the row from songs_data
     song_row = songs_data.loc[(songs_data["name"] ==
