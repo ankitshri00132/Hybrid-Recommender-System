@@ -38,7 +38,7 @@ jobs:
 
       - name : Test App
         run : |
-          pytest tests/test_app.py
+          python -m pytest tests/test_app.py
 
       - name : Stop streamlit app
         if : always()
