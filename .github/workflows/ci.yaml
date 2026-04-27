@@ -23,7 +23,7 @@ jobs:
       - name : Configure AWs Credentials 
         uses : aws-actions/configure-aws-credentials@v4
         with : 
-          aws-access-key : ${{secrets.AWS_ACCESS_KEY}}
+          aws-access-key-id : ${{secrets.AWS_ACCESS_KEY}}
           aws-secret-access-key : ${{secrets.AWS_SECRET_ACCESS_KEY}}
           aws-region: us-east-1
 
@@ -33,7 +33,7 @@ jobs:
 
       - name : Run application
         run : |
-          nohu streamlit run app.py --server port 8000 &
+          nohup streamlit run app.py --server port 8000 &
           sleep 30
 
       - name : Test App
