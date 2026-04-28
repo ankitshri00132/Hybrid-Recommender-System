@@ -66,9 +66,10 @@ jobs:
         with:
           python-version: "3.13.5"
           cache: pip
-       - name: Install DVC           
-          run: |
-           pip install dvc[s3]
+
+      - name: Install DVC           
+        run: |
+          pip install dvc[s3]
       - name: Configure AWs Credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
