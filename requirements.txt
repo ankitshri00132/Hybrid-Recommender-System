@@ -1,8 +1,8 @@
-numpy
-pandas
-scikit-learn
-scipy
-joblib
-streamlit
-category_encoders
-dask
+category_encoders==2.9.0
+dask==2026.3.0
+joblib==1.5.3
+numpy==2.4.4
+pandas==3.0.2
+scikit-learn==1.8.0
+scipy==1.17.1
+streamlit==1.56.0

@@ -289,7 +289,7 @@ venv\Scripts\activate
 source venv/bin/activate
 
 # 3. Install dependencies
-pip install -r requirements.txt
+pip install -r requirements-dev.txt
 
 # 4. Pull data with DVC (uses AWS S3 remote storage)
 dvc pull
